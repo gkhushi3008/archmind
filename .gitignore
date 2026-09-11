@@ -1,0 +1,27 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Environment variables / secrets
+backend/.env
+frontend/.env.local
+.env
+.env.local
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+# Local test transcripts
+meeting.txt
+# Local SQLite database
+backend/archmind.db
